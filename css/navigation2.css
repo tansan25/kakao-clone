@@ -1,0 +1,26 @@
+.nav{
+  bottom: 0;
+  position: fixed;
+  background-color: #F7F7F7;
+  width: 100%;
+  border-top: 1px solid #c1c1c1;
+  padding: 20px 40px 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .navigation{
+  text-decoration: none;
+  color: #c1c1c1;
+}
+.nav .navigation-selected{
+  color: #523737;
+}
+.nav .navigation i{
+  font-size: 30px;
+  display: block;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.nav .nav_text{
+  font-size: 12px;
+}
