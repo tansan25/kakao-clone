@@ -1,0 +1,26 @@
+.friends .search-bar{
+    padding: 5px 10px 10px 10px;
+    position: relative;
+}
+
+.search-bar input{
+  background-color: #F1F2F3;
+  border-radius: 5PX;
+  width: 100%;
+  border: 0px;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search-bar input:focus{
+  outline: none;
+}
+.search-bar i{
+  position: absolute;
+  left:630px;
+  color: #a2afb0;
+  top:15px;
+  font-size: 20px;
+}

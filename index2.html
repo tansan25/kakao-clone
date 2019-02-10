@@ -6,55 +6,88 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styls2.css">
-  <title>Friends</title>
+  <title>Friends2</title>
 </head>
 <body>
   <header class="header">
     <div class="header_top">
-      <div class="header-column">
-        <i class="fa fa-plane"></i>
+      <div class="header_column">
         <i class="fa fa-globe"></i>
         <i class="fa fa-wifi"></i>
       </div>
-      <div class="header-column">
-        17:01
-      </div>
-      <div class="header-column">
+      <div class="header_column">17:01</div>
+      <div class="header_column">
         <i class="fa fa-moon-o"></i>
-        <i class="fa fa-unlock-alt"></i>
-        <span class="header-column_battery">48%</span>
-        <i class="fa fa-battery-half"></i>
+        <i class="fa fa-lock"></i>
+        <span class="header_top_battery">48% <i class="fa fa-battery-half"></i> </span>
       </div>
     </div>
     <div class="header_bottom">
-      <div class="header-column">
+      <div class="header_column">
         Manage
       </div>
-      <div class="header-column">
-        <span class="header-column_text">Friends<span class="header-column_number">2</span></span>
+      <div class="header_column">
+        Friends <span class="header_column_number">2</span>
       </div>
-      <div class="header-column">
+      <div class="header_column">
         <i class="fa fa-cog fa-lg"></i>
       </div>
     </div>
   </header>
-
-  <nav class="nav">
-    <a href="index2.html" class="navigation navigation-selected">
-      <i class="fa fa-users"></i>
-      <span class="nav_text">Friends</span>
-    </a>
-    <a href="chats2.html" class="navigation">
-      <i class="fa fa-comment"></i>
-      <span class="nav_text">Chats</span>
-    </a>
-    <a href="find2.html" class="navigation">
+  <main class="friends">
+    <div class="search-bar">
       <i class="fa fa-search"></i>
-      <span class="nav_text">Find</span>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+    <div class="friends_display">
+      <a href="more2.html">
+        <i class="fa fa-info-circle"></i>
+        <span class="fridns_display_text">Friends' Names Display</span>
+        <i class="fa fa-chevron-right"></i>
+      </a>
+    </div>
+    <section class="friends_section">
+      <header class="friends_section_header">
+        My Profile
+      </header>
+      <div class="friends_section-row">
+        <img src="images/avatar.jpg" alt="">
+        <a href="profile2.html" class="friends_section-name">Nicolas</a>
+      </div>
+    </section>
+    <section class="friends_section">
+      <header class="friends_section_header">
+        Friends
+      </header>
+      <div class="friends_section-rows">
+        <div class="friends_section-row with-tagline">
+          <div class="friends_section-column">
+            <img src="images/avatar.jpg">
+            <a href="profile2.html">LYNN</a>
+          </div>
+          <span class="friends_section-tagline">
+            Life is short. so live your life.
+          </span>
+        </div>
+    </div>
+    </section>
+  </main>
+  <nav class="navigation">
+    <a href="index2.html" class="navigation_column navigation_column-selected">
+      <i class="fa fa-user"></i>
+      <span class="navigation_column_text">Friends</span>
     </a>
-    <a href="more2.html" class="navigation">
+    <a href="chats2.html" class="navigation_column">
+      <i class="fa fa-comment"></i>
+      <span class="navigation_column_text">Chats</span>
+    </a>
+    <a href="find2.html" class="navigation_column">
+      <i class="fa fa-search"></i>
+      <span class="navigation_column_text">Find</span>
+    </a>
+    <a href="more2.html" class="navigation_column">
       <i class="fa fa-bars"></i>
-      <span class="nav_text">More</span>
+      <span class="navigation_column_text">More</span>
     </a>
   </nav>
 </body>

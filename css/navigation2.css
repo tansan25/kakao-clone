@@ -1,26 +1,29 @@
-.nav{
-  bottom: 0;
+.navigation{
+  bottom: 0px;
   position: fixed;
   background-color: #F7F7F7;
   width: 100%;
-  border-top: 1px solid #c1c1c1;
-  padding: 20px 40px 10px 40px;
+  border-top: 1px solid #D4D4D4;
+  padding: 20px 30px 30px 30px;
   display: flex;
   justify-content: space-between;
+
 }
-.nav .navigation{
+
+.navigation a{
   text-decoration: none;
-  color: #c1c1c1;
+  color: #C1C1C1;
 }
-.nav .navigation-selected{
-  color: #523737;
-}
-.nav .navigation i{
-  font-size: 30px;
+
+.navigation i{
+  font-size: 40px;
   display: block;
-  padding-bottom: 10px;
   text-align: center;
+  margin-bottom: 10px;
 }
-.nav .nav_text{
-  font-size: 12px;
+.navigation .navigation_column_text{
+  font-size: 20px;
+}
+.navigation .navigation_column-selected{
+  color: #523636;
 }
