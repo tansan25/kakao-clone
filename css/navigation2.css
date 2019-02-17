@@ -1,29 +1,25 @@
-.navigation{
+.tab-bar{
   bottom: 0px;
   position: fixed;
-  background-color: #F7F7F7;
   width: 100%;
-  border-top: 1px solid #D4D4D4;
-  padding: 20px 30px 30px 30px;
+  background-color: #f1f2f3;
+  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
 
 }
 
-.navigation a{
+.tab-bar a{
   text-decoration: none;
-  color: #C1C1C1;
+  color: #c1c1c1;
 }
 
-.navigation i{
-  font-size: 40px;
+.tab-bar_tab.tab-bar_tab-selected{
+  color: #523737;
+}
+.tab-bar i{
+  font-size: 35px;
   display: block;
   text-align: center;
   margin-bottom: 10px;
-}
-.navigation .navigation_column_text{
-  font-size: 20px;
-}
-.navigation .navigation_column-selected{
-  color: #523636;
 }

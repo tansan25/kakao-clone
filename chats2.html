@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styls2.css">
-  <title>Friends2</title>
+  <title>Chats2</title>
 </head>
 <body>
   <header class="top_header">
@@ -26,13 +26,12 @@
     </div>
     <div class="header-bottom">
       <div class="header_column">
-        <span class="header_column_title">Manage</span>
+        <span class="header_column_title">Edit</span>
       </div>
       <div class="header_column">
-        <span class="header_column_title">Friends<span class="header_column_number">1</span></span>
+        <span class="header_column_title">Chats <i class="fa fa-caret-down"></i></span>
       </div>
       <div class="header_column">
-        <i class="fa fa-cog fa-lg"></i>
       </div>
     </div>
   </header>
@@ -41,44 +40,42 @@
       <i class="fa fa-search"></i>
       <input type="text" placeholder="Find Friends, Chats, Plus Friends">
     </div>
-    <section class="friends_section">
-      <header class="section_header">
-        My Profile
-      </header>
-      <div class="section_rows">
-        <div class="section_row">
-          <img src="images/avatar.jpg">
-          <a href ="profile.html" class="section_row-name">Nic</a>
-        </div>
-        <div class="section_row">
-          <img src="images/avatar.jpg">
-          <a href ="profile.html" class="section_row-name">Friends's Names Display</a>
-        </div>
-      </div>
-    </section>
-    <section class="friends_section">
-      <header class="section_header">
-        Friends
-      </header>
-      <div class="section_rows">
-        <div class="section_row with-tagline">
-          <div class="section_row-column">
+    <ul class="chats_list">
+      <li class="chats_chat">
+        <a href="chat.html">
+          <div class="chat_content">
             <img src="images/avatar.jpg">
-            <a href ="profile.html" class="section_row-name">LYNN</a>
+            <div class="chat_preview">
+              <h3 class="chat_user">LYNN</h3>
+              <span class="chat_last">Hello! This is a Test Message</span>
+            </div>
           </div>
-          <div class="section_row-tagline">
-            <span class="tagline">Life is short. so live your life..</span>
+          <span class="chat_date-time">15:25</span>
+        </a>
+      </li>
+      <li class="chats_chat">
+        <a href="chat.html">
+          <div class="chat_content">
+            <img src="images/avatar.jpg">
+            <div class="chat_preview">
+              <h3 class="chat_user">KaKaoTalk</h3>
+              <span class="chat_last">You logged into KakaoTalk PC</span>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+          <span class="chat_date-time">20:55</span>
+        </a>
+      </li>
+    </ul>
+    <div class="chat-btn">
+      <i class="fa fa-comment"></i>
+    </div>
   </main>
   <nav class="tab-bar">
-    <a href="index2.html" class="tab-bar_tab tab-bar_tab-selected">
+    <a href="index2.html" class="tab-bar_tab">
       <i class="fa fa-user"></i>
       <span class="tab-bar_tab-title">Friends</span>
     </a>
-    <a href="chats2.html" class="tab-bar_tab">
+    <a href="chats2.html" class="tab-bar_tab tab-bar_tab-selected">
       <i class="fa fa-comment"></i>
       <span class="tab-bar_tab-title">Chats</span>
     </a>
